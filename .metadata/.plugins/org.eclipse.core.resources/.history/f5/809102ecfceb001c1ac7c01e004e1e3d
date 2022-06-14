@@ -1,0 +1,20 @@
+import java.util.Locale;
+import java.util.Scanner;
+
+public class entrada {
+
+	public static void main(String[] args) {
+		Locale.setDefault(Locale.US);
+		Scanner sc = new Scanner(System.in);
+		
+		double pi,r,A,B;
+		pi = 3.14159;
+		
+		r = sc.nextDouble();
+		A = Math.pow(r, 2.0);
+		B = A*pi;
+		System.out.printf("O valor da Area do circulo com Raio " + r + " e = %.4f%n ", B );
+		
+	}
+
+}
